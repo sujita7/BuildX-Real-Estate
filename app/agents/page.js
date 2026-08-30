@@ -502,11 +502,22 @@ export default function Page() {
                 <div className="certified-agents_grid__orUos">
                   <div className="grid_wrapper__5qWqs">
                     <div className="grid-skeleton_grid__evAfN" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))', gap: '24px' }}>
-  {[1, 2, 3, 4, 5, 6, 7, 8].map(i => (
+  {[1, 2, 3, 4, 5, 6, 7, 8].map(i => {
+    const agentImages = [
+      "/images/image_331.png",
+      "/images/image_401.png",
+      "/images/image_511.png",
+      "/images/image_791.jpg",
+      "/images/image_841.png",
+      "/images/image_881.png",
+      "/images/image_951.png",
+      "/images/image_901.png"
+    ];
+    return (
     <div key={i} className="agent" style={{ borderRadius: '12px', overflow: 'hidden', background: '#fff', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }}>
       <div style={{ height: '280px', width: '100%', overflow: 'hidden' }}>
         <img 
-          src="/images/businesswomen_talking_walking_together_city_b99be30d39.jpg" 
+          src={agentImages[i-1]} 
           alt="Agent" 
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
         />
@@ -521,7 +532,7 @@ export default function Page() {
         </div>
       </div>
     </div>
-  ))}
+  )})}
 </div>
 </div>
 
