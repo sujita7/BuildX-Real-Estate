@@ -39,7 +39,7 @@ export default function Header() {
           <div className="header_content__cVJDb">
             <div className="header_logo__LO_Jk">
               <Link href="/">
-                <img src="/images/buildx-logo.jpeg" alt="BuildX Logo" class="header_logo__LO_Jk" style="height: 40px; width: auto; object-fit: contain;" />
+                <img src="/images/buildx-logo.jpeg" alt="BuildX Logo" className="header_logo__LO_Jk" style={{ height: "40px", width: "auto", objectFit: "contain" }} />
               </Link>
             </div>
             

@@ -30,7 +30,7 @@ export default function Page() {
                     <div className="hero_title__lofR7">
                       <h1>
                         <span className="hero_logo__3QYm_" aria-label="FIND">
-                          <img src="/images/buildx-logo.jpeg" alt="BuildX Logo" class="header_logo__LO_Jk" style="height: 40px; width: auto; object-fit: contain;" />
+                          <img src="/images/buildx-logo.jpeg" alt="BuildX Logo" className="header_logo__LO_Jk" style={{ height: "40px", width: "auto", objectFit: "contain" }} />
                         </span>
                         <br />
                         New York
